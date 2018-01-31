@@ -182,9 +182,11 @@ case .para {
 .about {
     padding: 4.25rem 1.625rem 4.25rem;
 }
+
 .about .container {
     max-width: 35.75rem;
 }
+
 .bio {
     margin-bottom: 0rem;
 }
