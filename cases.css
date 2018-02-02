@@ -2,16 +2,18 @@ body, menu {
     background-color: #fafafa;
 }
 
+
 .cs-utour .hero{
     background: #fff;    
 }
 
 .hero-content {
-    max-width: 38rem;
-    margin: 0 0 4.25rem;
+    max-width: 38rem;  
+    
 }
 .cs-utour .project-title {
     letter-spacing: normal;
+    
 }
 
 .project-title {
@@ -59,7 +61,7 @@ body, menu {
 }
 
  nav .cs-next a i, nav .cs-next h5, .logo a:hover, nav .cs-next h5:hover, .fold a, .fold a:hover {
-    color: #fcfcfc;
+    color: #777;
     text-decoration: none;
     border: none;
     -webkit-transition: all 0.3s linear;
@@ -74,5 +76,11 @@ body, menu {
 }
 .understand a {
     text-decoration: underline;
-    color: blue;
+    color: mediumpurple;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }

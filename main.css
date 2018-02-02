@@ -80,13 +80,12 @@ div {
 }
 
 a, a:link, a:visited {
-    color: inherit;
+    color:inherit;
     text-decoration: none;
     border-bottom: 1px mediumpurple solid;
 }
 
 .links-container li a, .links-container li a:hover, .links-container li a:active {
-    
 }
 
 
