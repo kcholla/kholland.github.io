@@ -21,7 +21,7 @@ body, menu {
     margin-bottom: 2.625rem;
     font-size: 4.25rem;
     padding-bottom: .25rem;
-    border-bottom: 1px solid;
+    border-bottom: 1px solid mediumpurple;
     font-family: courier, serif;
     font-size: 4.25rem;
     margin-bottom: 2.625rem;
@@ -79,8 +79,56 @@ body, menu {
     color: mediumpurple;
 }
 
-img {
-    width: 100%;
+ img {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+     display: block;
+     margin-left: auto;
+     margin-right: 5.325rem;
+     max-width: 100%;
+     height: auto;
+}
+
+
+ .wireframe img{
+    width: 40%;
     height: auto;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-right: 3rem;
+    margin-bottom: 2rem;
+     margin-top: 2rem;
+     margin-left: 2rem;
+    display: inline-grid;
+}
+ .hifi img{
+    width: 40%;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-right: 2rem;
+    margin-bottom: 1.5rem;
+     margin-top: 1rem;
+     margin-left: 2rem;
+    display: inline-grid;
+    
+}
+.hifi1 {
+    position: absolute;
+    z-index: 100;
+    text-align: center;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    }   
+    
+.hifi2 {
+    position: absolute;
+    z-index: 100;
+    text-align: center;
+    left: 55%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    }  
+
+h2{
+    text-transform: uppercase;
+    font-size: 1.5rem;
 }
