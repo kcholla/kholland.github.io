@@ -82,7 +82,7 @@ div {
 a, a:link, a:visited {
     color:inherit;
     text-decoration: none;
-    border-bottom: 1px mediumpurple solid;
+    border-bottom: 1px grey solid;
 }
 
 .links-container li a, .links-container li a:hover, .links-container li a:active {

@@ -8,9 +8,10 @@ body, menu {
 }
 
 .hero-content {
-    max-width: 38rem;  
-    
+    max-width: 40rem;
+   
 }
+
 .cs-utour .project-title {
     letter-spacing: normal;
     
@@ -93,40 +94,25 @@ body, menu {
     width: 40%;
     height: auto;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-right: 3rem;
-    margin-bottom: 2rem;
-     margin-top: 2rem;
-     margin-left: 2rem;
+    margin-right: 4rem;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
     display: inline-grid;
+     max-width: 100%;
 }
  .hifi img{
     width: 40%;
     height: auto;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-right: 2rem;
-    margin-bottom: 1.5rem;
-     margin-top: 1rem;
+    margin-bottom: 3rem;
+     margin-top: 3rem;
      margin-left: 2rem;
     display: inline-grid;
+     max-width: 100%
     
 }
-.hifi1 {
-    position: absolute;
-    z-index: 100;
-    text-align: center;
-    left: 50%;
-    top: 60%;
-    transform: translate(-50%, -50%);
-    }   
-    
-.hifi2 {
-    position: absolute;
-    z-index: 100;
-    text-align: center;
-    left: 55%;
-    top: 60%;
-    transform: translate(-50%, -50%);
-    }  
+
 
 h2{
     text-transform: uppercase;
